@@ -1,0 +1,30 @@
+{
+  "name": "astrotest",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@astrojs/sitemap": "^3.4.1",
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@playform/compress": "^0.2.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "aos": "^2.3.4",
+    "astro": "^5.14.3",
+    "astro-swiper": "^1.1.0",
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-floating-whatsapp": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "sass": "^1.93.2"
+  }
+}

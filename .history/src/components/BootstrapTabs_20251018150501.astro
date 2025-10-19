@@ -1,0 +1,14 @@
+---
+
+---
+
+<script>
+  import { Tab } from "bootstrap";
+
+  document.addEventListener("astro:page-load", () => {
+    const triggerTabList = document.querySelectorAll('[data-bs-toggle="tab"]');
+    triggerTabList.forEach((triggerEl) => {
+      new Tab(triggerEl);
+    });
+  });
+</script>

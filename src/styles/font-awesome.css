@@ -1,0 +1,343 @@
+
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.woff2") format("woff2"),
+    url("../fonts/flaticon.woff") format("woff"),
+    url("../fonts/flaticon.eot?#iefix") format("embedded-opentype")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before, span[class^="flaticon-"]:before, span[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-passport:before {
+    content: "\f101";
+}
+.flaticon-visa:before {
+    content: "\f102";
+}
+.flaticon-passport-1:before {
+    content: "\f103";
+}
+.flaticon-visa-1:before {
+    content: "\f104";
+}
+.flaticon-visa-2:before {
+    content: "\f105";
+}
+.flaticon-visa-3:before {
+    content: "\f106";
+}
+.flaticon-visa-4:before {
+    content: "\f107";
+}
+.flaticon-visa-5:before {
+    content: "\f108";
+}
+.flaticon-passport-2:before {
+    content: "\f109";
+}
+.flaticon-stamp:before {
+    content: "\f10a";
+}
+.flaticon-travel:before {
+    content: "\f10b";
+}
+.flaticon-visa-6:before {
+    content: "\f10c";
+}
+.flaticon-check:before {
+    content: "\f10d";
+}
+.flaticon-passport-3:before {
+    content: "\f10e";
+}
+.flaticon-document:before {
+    content: "\f10f";
+}
+.flaticon-credit-card:before {
+    content: "\f110";
+}
+.flaticon-passport-4:before {
+    content: "\f111";
+}
+.flaticon-visa-7:before {
+    content: "\f112";
+}
+.flaticon-visa-8:before {
+    content: "\f113";
+}
+.flaticon-passport-5:before {
+    content: "\f114";
+}
+.flaticon-document-1:before {
+    content: "\f115";
+}
+.flaticon-passport-6:before {
+    content: "\f116";
+}
+.flaticon-passport-7:before {
+    content: "\f117";
+}
+.flaticon-passport-8:before {
+    content: "\f118";
+}
+.flaticon-identification:before {
+    content: "\f119";
+}
+.flaticon-passport-9:before {
+    content: "\f11a";
+}
+.flaticon-visa-9:before {
+    content: "\f11b";
+}
+.flaticon-world:before {
+    content: "\f11c";
+}
+.flaticon-passport-10:before {
+    content: "\f11d";
+}
+.flaticon-visa-10:before {
+    content: "\f11e";
+}
+.flaticon-world-1:before {
+    content: "\f11f";
+}
+.flaticon-visa-11:before {
+    content: "\f120";
+}
+.flaticon-immigration-law:before {
+    content: "\f121";
+}
+.flaticon-passport-11:before {
+    content: "\f122";
+}
+.flaticon-passport-12:before {
+    content: "\f123";
+}
+.flaticon-documents:before {
+    content: "\f124";
+}
+.flaticon-travel-luggage:before {
+    content: "\f125";
+}
+.flaticon-traveling:before {
+    content: "\f126";
+}
+.flaticon-around:before {
+    content: "\f127";
+}
+.flaticon-airplane:before {
+    content: "\f128";
+}
+.flaticon-travel-agency:before {
+    content: "\f129";
+}
+.flaticon-travel-and-tourism:before {
+    content: "\f12a";
+}
+.flaticon-travel-agency-1:before {
+    content: "\f12b";
+}
+.flaticon-airplane-1:before {
+    content: "\f12c";
+}
+.flaticon-flight:before {
+    content: "\f12d";
+}
+.flaticon-plane-ticket:before {
+    content: "\f12e";
+}
+.flaticon-business-travel:before {
+    content: "\f12f";
+}
+.flaticon-suitcase:before {
+    content: "\f130";
+}
+.flaticon-distance:before {
+    content: "\f131";
+}
+.flaticon-airplane-2:before {
+    content: "\f132";
+}
+.flaticon-baggage:before {
+    content: "\f133";
+}
+.flaticon-travel-guide:before {
+    content: "\f134";
+}
+.flaticon-map:before {
+    content: "\f135";
+}
+.flaticon-island:before {
+    content: "\f136";
+}
+.flaticon-landscape:before {
+    content: "\f137";
+}
+.flaticon-direct-flight:before {
+    content: "\f138";
+}
+.flaticon-bus:before {
+    content: "\f139";
+}
+.flaticon-immigration-officer:before {
+    content: "\f13a";
+}
+.flaticon-immigration-officer-1:before {
+    content: "\f13b";
+}
+.flaticon-immigration-law-1:before {
+    content: "\f13c";
+}
+.flaticon-immigration-law-2:before {
+    content: "\f13d";
+}
+.flaticon-passport-13:before {
+    content: "\f13e";
+}
+.flaticon-law:before {
+    content: "\f13f";
+}
+.flaticon-school:before {
+    content: "\f140";
+}
+.flaticon-education:before {
+    content: "\f141";
+}
+.flaticon-mortarboard:before {
+    content: "\f142";
+}
+.flaticon-idea:before {
+    content: "\f143";
+}
+.flaticon-institution:before {
+    content: "\f144";
+}
+.flaticon-graduated:before {
+    content: "\f145";
+}
+.flaticon-happiness:before {
+    content: "\f146";
+}
+.flaticon-coronavirus:before {
+    content: "\f147";
+}
+.flaticon-red-flag:before {
+    content: "\f148";
+}
+.flaticon-secure-shield:before {
+    content: "\f149";
+}
+.flaticon-padlock:before {
+    content: "\f14a";
+}
+.flaticon-technical-support:before {
+    content: "\f14b";
+}
+.flaticon-customer-support:before {
+    content: "\f14c";
+}
+.flaticon-online-chat:before {
+    content: "\f14d";
+}
+.flaticon-24-7:before {
+    content: "\f14e";
+}
+.flaticon-phone-call:before {
+    content: "\f14f";
+}
+.flaticon-iphone:before {
+    content: "\f150";
+}
+.flaticon-mac-os-x:before {
+    content: "\f151";
+}
+.flaticon-pdf:before {
+    content: "\f152";
+}
+.flaticon-email:before {
+    content: "\f153";
+}
+.flaticon-visa-to-travel:before {
+    content: "\f154";
+}
+.flaticon-passport-14:before {
+    content: "\f155";
+}
+.flaticon-passport-15:before {
+    content: "\f156";
+}
+.flaticon-visa-12:before {
+    content: "\f157";
+}
+.flaticon-visa-13:before {
+    content: "\f158";
+}
+.flaticon-passport-16:before {
+    content: "\f159";
+}
+.flaticon-passport-17:before {
+    content: "\f15a";
+}
+.flaticon-visa-14:before {
+    content: "\f15b";
+}
+.flaticon-id-card:before {
+    content: "\f15c";
+}
+.flaticon-document-2:before {
+    content: "\f15d";
+}
+.flaticon-fill:before {
+    content: "\f15e";
+}
+.flaticon-money:before {
+    content: "\f15f";
+}
+.flaticon-briefcase:before {
+    content: "\f160";
+}
+.flaticon-workers:before {
+    content: "\f161";
+}
+.flaticon-worker:before {
+    content: "\f162";
+}
+.flaticon-tour-guide:before {
+    content: "\f163";
+}
+.flaticon-tourist:before {
+    content: "\f164";
+}
+.flaticon-airplane-flight-in-circle-around-earth:before {
+    content: "\f165";
+}
+.flaticon-guidepost:before {
+    content: "\f166";
+}
+.flaticon-traveller:before {
+    content: "\f167";
+}
+.flaticon-disneyland:before {
+    content: "\f168";
+}
+.flaticon-check-1:before {
+    content: "\f169";
+}
+.flaticon-customer-service:before {
+    content: "\f16a";
+}
+.flaticon-30-days:before {
+    content: "\f16b";
+}
+.flaticon-money-back-guarantee:before {
+    content: "\f16c";
+}

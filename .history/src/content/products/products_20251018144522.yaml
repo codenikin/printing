@@ -1,0 +1,20 @@
+- id: 1
+  image: "/assets/img/shop/01.jpg"
+  title: "Product Price by Toggle"
+  price: "16.00 – 26.00"
+  offerText: "-20%"
+  category: "business"
+
+- id: 2
+  image: "/assets/img/shop/02.jpg"
+  title: "Creative Life"
+  price: "16.00 – 26.00"
+  category: "books"
+
+- id: 3
+  image: "/assets/img/shop/03.jpg"
+  title: "Brochure Blue"
+  price: "18.00"
+  salePrice: "27.00"
+  offerText: "Sale!"
+  category: "cloths"

@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+
+const aboutEntries = await getCollection('about');
+const about = aboutEntries[0]; // Get the first about entry
+---
+
+<section class="about-section fix section-padding section-bg">
+  <div class="container">
+    <div class="about-wrapper-3">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6 img-custom-anim-left">
+          <div
+            class="about-image-3 reveal"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+          >
+            <img src={about.data.mainImage} alt="about image" />
+          </div>
+        </div>
+        <div class="col-lg-6 img-custom-anim-right">
+          <div class="about-content">
+            <div class="section-title">
+              <div class="sub-title wow fadeInUp">
+                <span>{about.data.subtitle}</span>
+              </div>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000"
+                class="split-text right"
+              >
+                {about.data.title}
+              </h2>
+            </div>
+            <p
+              class="mt-3 mt-md-0 wow fadeInUp"
+              data-wow-delay=".5s"
+              set:html={about.data.description}
+            />
+            <div class="video-items">
+              <div class="video-thumb wow fadeInUp" data-wow-delay=".3s">
+                <img src={about.data.videoThumb} alt="video thumbnail" />
+                <div class="video-box">
+                  <a
+                    href={about.data.videoUrl}
+                    class="video-btn ripple video-popup"
+                  >
+                    <i class="fas fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <ul class="list wow fadeInUp" data-wow-delay=".5s">
+                {about.data.services.map((service) => (
+                  <li>
+                    <i class="far fa-check-circle"></i>
+                    {service}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div class="about-author">
+              <a
+                href="about.html"
+                class="theme-btn wow fadeInUp"
+                data-wow-delay=".3s"
+              >
+                Discover More
+              </a>
+              <div class="author-image bounce-x">
+                <img src={about.data.authorImage} alt="author-img" />
+                <div class="content">
+                  <span>Call to Expert</span>
+                  <h4>
+                    <a href={`tel:${about.data.phoneNumber}`}>
+                      {about.data.phoneNumber}
+                    </a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

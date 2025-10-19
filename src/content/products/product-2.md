@@ -1,0 +1,9 @@
+---
+id: 2
+image: "/assets/img/shop/02.jpg"
+title: "Creative Life"
+price: "16.00 – 26.00"
+salePrice: "27.00"
+offerText: "-20%"
+category: "books"
+---

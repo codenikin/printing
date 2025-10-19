@@ -1,0 +1,38 @@
+---
+import About from "../components/About.astro";
+import Callaction from "../components/Callaction.astro";
+import Feature from "../components/Feature.astro";
+import Hero from "../components/Hero.astro";
+
+import Ourservices from "../components/Ourservices.astro";
+import Printing from "../components/Printing.astro";
+import Layout from "../layouts/Layout.astro";
+
+const slides = [
+  {
+    id: 1,
+    title: "Omuruga printing",
+    heading: "Complete Printing & Designing Solutions",
+    description: "",
+    image: "/assets/img/hero/student.png",
+    background: "/assets/img/abstract.png",
+  },
+  {
+    id: 2,
+    title: "Ommuruga Printing",
+    heading: "We deliver the best quality at the most reasonable rates.",
+    description: "",
+    image: "/assets/img/hero/student.png",
+    background: "/assets/img/papercraft.png",
+  },
+];
+---
+
+<Layout>
+  <Hero slides={slides} />
+  <Feature />
+  <About />
+  <Ourservices />
+  <Printing />
+  <Callaction />
+</Layout>

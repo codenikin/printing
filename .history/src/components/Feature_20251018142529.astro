@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+
+const features = await getCollection("features");
+---
+
+<section class="shop-banner-section-2 fix section-padding pt-8">
+  <div class="container">
+    <div class="row g-4">
+      {
+        features.map((feature, index) => (
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 wow img-custom-anim-top"
+            data-wow-duration="2.5s"
+            data-wow-delay="0.1s"
+          >
+            <div class="shop-banner-items">
+              <div class="row g-4 align-items-center">
+                <div
+                  class={`col-xl-${index === 0 ? "5" : "4"} col-lg-7 col-md-${index === 0 ? "5" : "4"}`}
+                >
+                  <div class="shop-banner-content" role="alert">
+                    <span>{feature.data.subtitle}</span>
+                    <h3>{feature.data.title}</h3>
+                    <a href={feature.data.buttonLink} class="theme-btn">
+                      {feature.data.buttonText}
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class={`col-xl-${index === 0 ? "7" : "8"} col-lg-5 col-md-${index === 0 ? "7" : "8"}`}
+                >
+                  <div class="product-right-wrapper">
+                    <div class={`product-right-img${index === 0 ? "" : "-2"}`}>
+                      <img src={feature.data.image} alt={feature.data.title} />
+                      <div
+                        class={`product-right-img-shape${index === 0 ? "" : "-2"}`}
+                      >
+                        <img src={feature.data.shapeImage} alt="shape" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
