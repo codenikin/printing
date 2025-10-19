@@ -11,7 +11,7 @@ Version: 1.1.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #7000fe;
+  --theme: #be2028;
   --theme2: #7000fe;
   --header: #09052F;
   --base: #7000fe;
@@ -9021,7 +9021,7 @@ p.sticky-label {
 }
 
 .contact-form-items {
-  background-color: var(--bg);
+  background-color: #f8f8f8;
   padding: 70px;
 }
 @media (max-width: 767px) {

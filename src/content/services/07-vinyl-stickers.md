@@ -2,6 +2,6 @@
 id: 7
 image: "/assets/img/service/vinyl.png"
 title: "Vinyl Stickers"
-description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered. There are many variations"
+description: "High-quality vinyl stickers with vibrant colors and strong adhesive. Perfect for branding, product labels, walls, and vehicle graphics—durable and waterproof"
 link: "service-details.html"
 ---

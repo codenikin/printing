@@ -2,6 +2,6 @@
 id: 10
 image: "/assets/img/service/screen.png"
 title: "Screen Printing"
-description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered. There are many variations"
+description: "Professional screen printing with vibrant, lasting colors on fabrics, t-shirts, bags, and materials. Perfect for branding, uniforms, and custom promotional items."
 link: "service-details.html"
 ---
