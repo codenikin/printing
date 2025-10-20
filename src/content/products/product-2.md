@@ -2,8 +2,8 @@
 id: 2
 image: "/assets/img/shop/book2.png"
 title: "Creative Life"
-price: "16.00 – 26.00"
-salePrice: "27.00"
+price: "0.00"
+salePrice: "0.00"
 offerText: "-20%"
 category: "books"
 ---
