@@ -41,19 +41,19 @@ const about = aboutEntries[0]; // Get the first about entry
               <div class="video-thumb wow fadeInUp" data-wow-delay=".3s">
                 <img src={about.data.videoThumb} alt="video thumbnail" />
                 <div class="video-box">
-                  <!-- <a
+                  <a
                     href={about.data.videoUrl}
                     class="video-btn ripple video-popup"
                   >
-                    <i class="far fa-play"></i>
-                  </a> -->
+                    <i class="fas fa-play"></i>
+                  </a>
                 </div>
               </div>
               <ul class="list wow fadeInUp" data-wow-delay=".5s">
                 {
                   about.data.services.map((service) => (
                     <li>
-                      <i class="far fa-check-circle" />
+                      <i class="fas fa-check-circle" />
                       {service}
                     </li>
                   ))
