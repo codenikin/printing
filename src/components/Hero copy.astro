@@ -41,11 +41,11 @@ const slides: CollectionEntry<"hero">[] = await getCollection("hero");
                           <p class="animate-up text-black">
                             {slide.data.description}
                           </p>
-                          {/* <div class="animate-up mt-4">
+                          <div class="animate-up mt-4">
                             <a href="#products" class="theme-btn">
                               Explore Now
                             </a>
-                          </div> */}
+                          </div>
                         </div>
                       </div>
                       <div class="col-lg-6">
@@ -72,37 +72,19 @@ const slides: CollectionEntry<"hero">[] = await getCollection("hero");
 </section>
 <style>
   .hero-section {
-    height: 400px; /* Changed from 640px */
+    height: 640px;
     position: relative;
     overflow: hidden;
   }
 
   .hero-section .row {
-    min-height: 400px !important;
-    padding-top: 40px; /* Add padding to top */
-  }
-
-  .hero-content {
-    padding-top: 20px; /* Add space at top */
-    margin-bottom: 30px; /* Add space at bottom */
-  }
-
-  /* Adjust vertical alignment */
-  .row.align-items-center {
-    align-items: flex-start !important; /* Change from center to top */
+    min-height: 680px !important;
   }
 
   .hero-image {
     position: relative;
-    padding: 0 15px; /* Adjust padding */
+    padding: 20px;
     transition: transform 0.3s ease;
-    margin-top: -20px; /* Pull image up slightly */
-  }
-
-  .hero-image img {
-    max-height: 400px; /* Reduced from 550px */
-    width: auto;
-    object-fit: contain;
   }
 
   /* Tablet and smaller desktop */
@@ -117,47 +99,47 @@ const slides: CollectionEntry<"hero">[] = await getCollection("hero");
   @media (max-width: 991px) {
     .hero-section {
       height: auto;
-      min-height: 140px; /* Changed from 680px */
-    }
-
-    .hero-section .row {
-      padding-top: 20px;
-    }
-
-    .hero-content {
-      padding-top: 10px;
-      margin-bottom: 20px;
+      min-height: 680px;
     }
 
     .hero-image {
-      margin-top: 0;
+      margin-top: 30px;
+      padding: 15px;
+    }
+
+    .hero-image img {
+      max-height: 500px;
+      width: 100%;
+      object-fit: contain;
     }
   }
 
   /* Small mobile devices */
   @media (max-width: 576px) {
     .hero-section {
-      min-height: 20px; /* Reduced height */
+      min-height: 600px;
     }
 
-    .hero-section .row {
-      padding-top: 15px;
+    .hero-image {
+      margin-top: 20px;
+      padding: 10px;
     }
 
-    .hero-content {
-      padding-top: 5px;
-      margin-bottom: 15px;
+    .hero-image img {
+      max-height: 400px;
+      width: 100%;
+      object-fit: contain;
     }
   }
 
   /* Optional: Add hover effect */
   @media (min-width: 992px) {
     .hero-image:hover {
-      transform: translateY(-3px); /* Reduced movement */
+      transform: translateY(-5px);
     }
 
     .hero-image img:hover {
-      transform: scale(1.01); /* Reduced scale effect */
+      transform: scale(1.02);
     }
   }
 </style>
