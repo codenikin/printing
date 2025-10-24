@@ -2434,7 +2434,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 767px) {
   .hero-1 .hero-content h1 {
-    font-size: 54px;
+    font-size: 40px;
   }
 }
 @media (max-width: 575px) {
@@ -2946,6 +2946,9 @@ input.main-search-input::placeholder {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.printing-feature-wrapper {
+  padding: 20px;
 }
 .feature-wrapper .feature-items .content h6 {
   font-weight: 600;

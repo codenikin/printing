@@ -7,7 +7,7 @@
         >
           <div class="offcanvas__logo">
             <a href="/">
-              <img src="/assets/img/logo.svg" alt="logo-img" />
+              <img src="/assets/img/logo2.svg" alt="logo-img" />
             </a>
           </div>
           <div class="offcanvas__close">
@@ -198,3 +198,19 @@
     </div>
   </header>
 </div>
+<style>
+  .offcanvas__logo img {
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto;
+    /* Optional: add minimum dimensions */
+    min-width: 100px;
+    min-height: 30px;
+  }
+
+  /* For mobile devices */
+  @media (max-width: 576px) {
+    .offcanvas__logo img {
+      max-width: 170px; /* Smaller size for mobile */
+    }
+  }
+</style>

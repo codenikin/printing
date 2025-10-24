@@ -9,7 +9,7 @@
           <div class="single-footer-widget">
             <div class="widget-head">
               <a href="index.html">
-                <img src="/assets/img/logo/murug.png" alt="logo-img" />
+                <img src="/assets/img/logo2.svg" alt="logo-img" />
               </a>
             </div>
             <div class="footer-content">
@@ -151,7 +151,27 @@
             </ul>
           </div>
         </div>
+
         <div
+          class="col-xl-2 col-sm-6 col-md-6 col-lg-4 ps-lg-5 wow fadeInUp"
+          data-wow-delay=".8s"
+        >
+          <div class="single-footer-widget">
+            <div class="widget-head">
+              <h3>Find Us</h3>
+            </div>
+            <div class="qr-code-container">
+              <img
+                src="/assets/img/qr-code.png"
+                alt="QR Code"
+                class="qr-code-image"
+              />
+              <p class="qr-code-text">Scan to save our contact</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div
           class="col-xl-2 col-sm-6 col-md-6 col-lg-4 ps-lg-5 wow fadeInUp"
           data-wow-delay=".8s"
         >
@@ -177,7 +197,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -194,5 +214,39 @@
 <style>
   .container {
     max-width: 1420px;
+  }
+
+  .container {
+    max-width: 1420px;
+  }
+
+  .qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .qr-code-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    background: white;
+  }
+
+  .qr-code-text {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 576px) {
+    .qr-code-image {
+      width: 170px;
+      height: 170px;
+    }
   }
 </style>
