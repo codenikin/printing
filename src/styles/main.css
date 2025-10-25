@@ -10,8 +10,9 @@ Version: 1.1.0
 :root {
   --body: #fff;
   --black: #000;
+  --red: #b81d2bff;
   --white: #fff;
-  --theme: #be2028;
+  --theme: #01b6caff;
   --theme2: #7000fe;
   --header: #09052F;
   --base: #7000fe;
@@ -184,7 +185,7 @@ h6 {
   font-family: "Outfit", sans-serif;
   margin: 0px;
   padding: 0;
-  color: var(--header);
+  color: var(--red);
   text-transform: initial;
   transition: all 0.4s ease-in-out;
 }
@@ -246,7 +247,7 @@ a {
   text-decoration: none;
   outline: none !important;
   cursor: pointer;
-  color: var(--header);
+  color: var(--red);
   transition: all 0.4s ease-in-out;
 }
 
@@ -1018,7 +1019,7 @@ input.main-search-input::placeholder {
   }
 }
 .header-top-section {
-  background: linear-gradient(90.07deg, #FF4E8D 32.43%, #AE34E8 58.79%, #3E8DFF 105.32%);
+  background: linear-gradient(90.07deg, #01b6caff 32.43%, #01b6caff 58.79%, #3E8DFF 105.32%);
   position: relative;
   z-index: 9;
 }
@@ -2419,7 +2420,7 @@ input.main-search-input::placeholder {
   transform: translateY(-150px);
 }
 .hero-1 .hero-content h1 {
-  color: var(--black);
+  color: var(--red);
   margin-bottom: 30px;
 }
 @media (max-width: 1199px) {
@@ -3724,14 +3725,14 @@ input.main-search-input::placeholder {
 }
 .shop-banner-items .shop-banner-content span {
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--red);
   font-weight: 500;
   margin-bottom: 5px;
   display: inline-block;
 }
 .shop-banner-items .shop-banner-content h3 {
   font-size: 36px;
-  color: var(--white);
+  color: var(--red);
   margin-bottom: 25px;
 }
 .shop-banner-items .shop-banner-content .theme-btn {
@@ -7000,7 +7001,7 @@ input.main-search-input::placeholder {
   }
 }
 .cta-contact-item h2 {
-  color: var(--white);
+  color: var(--red);
 }
 .cta-contact-item .theme-btn {
   background-color: var(--white);

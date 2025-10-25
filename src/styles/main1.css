@@ -2451,7 +2451,7 @@ input.main-search-input::placeholder {
   transform: translateY(-150px);
 }
 .hero-1 .hero-content h1 {
-  color: var(--black);
+  color: var(--red);
   margin-bottom: 30px;
 }
 @media (max-width: 1199px) {
