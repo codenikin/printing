@@ -2,11 +2,14 @@
 import Header from "../components/Header/Header.astro";
 import "../styles/global.css";
 import "../styles/main.css";
+import "../styles/floating-call.css";
 import "aos/dist/aos.css";
 // import "../styles/font-awesome.css"
 import Footer from "../components/Footer/Footer.astro";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Whatsapp from "../components/Whatsapp";
+
+import FloatingCall from "../components/FloatingCall";
 ---
 
 <!doctype html>
@@ -177,6 +180,7 @@ import Whatsapp from "../components/Whatsapp";
       });
     </script>
     <Whatsapp client:load />
+    <FloatingCall />
   </body>
 </html>
 <style is:global>
